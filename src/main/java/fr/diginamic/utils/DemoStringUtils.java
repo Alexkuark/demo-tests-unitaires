@@ -11,7 +11,6 @@ public class DemoStringUtils {
 		System.out.println(StringUtils.levenshteinDistance("Chine", "Chien"));
 		System.out.println(StringUtils.levenshteinDistance("Vienne", "Sienne"));
 		
-		
 	}
 
 }
