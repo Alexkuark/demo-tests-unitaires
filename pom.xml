@@ -15,7 +15,19 @@
 				<configuration>
 					<release>17</release>
 				</configuration>
-			</plugin>
+			</plugin> 
 		</plugins>
 	</build>
+	<properties>
+	    <junit.jupiter.version>5.0.1</junit.jupiter.version>
+	    <junit.platform.version>1.0.1</junit.platform.version> 
+	</properties>
+	<dependencies>
+		<dependency>
+		    <groupId>org.junit.jupiter</groupId>
+		    <artifactId>junit-jupiter-engine</artifactId>
+		    <version>5.11.0-M2</version>
+		    <scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
