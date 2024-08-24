@@ -1,5 +1,5 @@
 package fr.diginamic.immobilier.entites;
-/** ReprÃ©sente une piÃ¨ce abstraite
+/** Représente une pièce abstraite
  * @author DIGINAMIC
  *
  */
@@ -8,7 +8,7 @@ public abstract class Piece {
 	/** superficie : superficie*/
 	private double superficie;
 	
-	/** numEtage : Ã©tage oÃ¹ se situe la piÃ¨ce*/
+	/** numEtage : étage où se situe la pièce*/
 	private int numEtage;
 	
 
@@ -28,7 +28,7 @@ public abstract class Piece {
 	public static final String TYPE_SDB = "Salle de bain";
 	
 	/** Constructeur
-	 * @param etage Ã©tage
+	 * @param etage étage
 	 * @param superficie superficie
 	 */
 	public Piece(int etage, double superficie) {
@@ -36,7 +36,7 @@ public abstract class Piece {
 		this.superficie = superficie;
 	}
 	
-	/** Retourne le type de la piÃ¨ce
+	/** Retourne le type de la pièce
 	 * @return String
 	 */
 	public abstract String getType();

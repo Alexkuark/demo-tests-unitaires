@@ -1,12 +1,12 @@
 package fr.diginamic.immobilier.entites;
-/** PiÃ¨ce de type chambre
+/** Pièce de type chambre
  * @author DIGINAMIC
  *
  */
 public class Chambre extends Piece {
 
 	/** Constructeur
-	 * @param etage Ã©tage
+	 * @param etage étage
 	 * @param superficie superficie
 	 */
 	public Chambre(int etage, double superficie) {

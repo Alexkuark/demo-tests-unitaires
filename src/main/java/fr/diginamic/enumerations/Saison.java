@@ -8,7 +8,7 @@ package fr.diginamic.enumerations;
 public enum Saison {
 
 	/** Les 4 instances de Saison */
-	PRINTEMPS("Printemps", 1), ETE("EtÃ©", 2), AUTOMNE("Automne", 3), HIVER("Hiver", 4);
+	PRINTEMPS("Printemps", 1), ETE("Eté", 2), AUTOMNE("Automne", 3), HIVER("Hiver", 4);
 
 	/** libelle */
 	private String libelle;
@@ -18,7 +18,7 @@ public enum Saison {
 	/**
 	 * Constructeur
 	 * 
-	 * @param libelle libellÃ©
+	 * @param libelle libellé
 	 * @param ordre   ordre
 	 */
 	private Saison(String libelle, int ordre) {
@@ -27,9 +27,9 @@ public enum Saison {
 	}
 
 	/**
-	 * Permet de rechercher une Saison Ã  partir de son libellÃ©
+	 * Permet de rechercher une Saison à  partir de son libellé
 	 * 
-	 * @param libelle libellÃ©
+	 * @param libelle libellé
 	 * @return {@link Saison}
 	 */
 	public static Saison valueOfLibelle(String libelle) {

@@ -4,9 +4,9 @@ public class DemoStringUtils {
 
 	public static void main(String[] args) {
 	
-		//TODO La classe semble fonctionne mais fonctionne t'elle si bien que Ã§a ??
-		//TODO Que se passe t'il si on lui passe des paramÃ¨tres inattendus.
-		//TODO Mettre en place des tests unitaires permettant de vÃ©rifier que la classe fonctionne
+		//TODO La classe semble fonctionne mais fonctionne t'elle si bien que ça ??
+		//TODO Que se passe t'il si on lui passe des paramétres inattendus.
+		//TODO Mettre en place des tests unitaires permettant de vérifier que la classe fonctionne
 		//     dans tous les cas
 		System.out.println(StringUtils.levenshteinDistance("Chine", "Chien"));
 		System.out.println(StringUtils.levenshteinDistance("Vienne", "Sienne"));

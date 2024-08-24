@@ -1,12 +1,12 @@
 package fr.diginamic.immobilier.entites;
-/** PiÃ¨ce de type WC
+/** Pièce de type WC
  * @author DIGINAMIC
  *
  */
 public class WC extends Piece {
 
 	/** Constructeur
-	 * @param etage Ã©tage
+	 * @param etage étage
 	 * @param superficie superficie
 	 */
 	public WC(int etage, double superficie) {

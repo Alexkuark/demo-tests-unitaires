@@ -1,12 +1,12 @@
 package fr.diginamic.immobilier.entites;
-/** PiÃ¨ce de type cuisine
+/** Pièce de type cuisine
  * @author DIGINAMIC
  *
  */
 public class Cuisine extends Piece {
 
 	/** Constructeur
-	 * @param etage Ã©tage
+	 * @param etage étage
 	 * @param superficie superficie
 	 */
 	public Cuisine(int etage, double superficie) {
